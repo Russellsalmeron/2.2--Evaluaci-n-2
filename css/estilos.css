@@ -1,0 +1,43 @@
+
+#contenido {
+    background-color:lightgoldenrodyellow;
+    font-family: Tahoma;
+    margin: 20px 20px 20px 20px;
+}
+/*Selector de Etiqueta*/
+img{
+    width: 200px;
+}
+
+textarea{
+    width: 20%;
+    height: 3rmd;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    /* resize: none; */
+}
+/*Selector de Atributo*/
+input[name="email"]
+{
+    background-color: #eeeeee ;
+}
+
+#BtnRegistrar
+{
+    background-color: grey;
+    border-radius: 0;
+    color: ivory;
+}
+input{
+    background-color: burlywood;
+    
+}
+/*Selector Multiple o bien se podria usar el Selector class*/
+p,label
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
